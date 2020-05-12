@@ -1,8 +1,8 @@
 module.exports = {
   // your community or team name to display on join page.
-  community: process.env.COMMUNITY_NAME || 'YOUR-TEAM-NAME',
+  community: process.env.COMMUNITY_NAME || 'carpentries-ja',
   // your slack team url (ex: socketio.slack.com)
-  slackUrl: process.env.SLACK_URL || 'YOUR-TEAM.slack.com',
+  slackUrl: process.env.SLACK_URL || 'carpentries-ja.slack.com',
   // access token of slack
   // see https://github.com/outsideris/slack-invite-automation#issue-token
   //
@@ -17,6 +17,6 @@ module.exports = {
   recaptchaSiteKey: process.env.RECAPTCHA_SITE || null,
   recaptchaSecretKey: process.env.RECAPTCHA_SECRET || null,
   // default locale
-  locale: process.env.LOCALE || "en",
+  locale: process.env.LOCALE || "ja",
   subpath: process.env.SUBPATH || "/"
 };
